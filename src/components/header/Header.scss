@@ -1,0 +1,28 @@
+@import '../../assets/_variables.scss';
+.header{
+    display: flex;
+    flex-direction: column;
+   &__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+   }
+    
+    &__logo-container{
+        display: flex;
+        align-items: center;
+        h1{
+            color:$primary-color;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 30px;
+            
+            
+            margin-left: 10px;
+        }
+    }
+    &__image{
+        margin-right: 50px;
+    }
+}
