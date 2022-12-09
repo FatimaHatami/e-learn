@@ -1,1 +1,21 @@
+// Colors
 $primary-color:#25A4AD;
+$primary-color-light:#25a4ad10;
+
+$secondary-text-color:#8391A1;
+
+// text color
+$primary-text-color:#000000;
+$text-color-light:#8391A1;
+
+
+// Mixins
+@mixin border-radius-4 {
+    border-radius: 4px;
+}
+@mixin centerdItems($direction){
+    display: flex;
+    flex-direction: $direction;
+    align-items: center;
+    justify-content: center;
+}

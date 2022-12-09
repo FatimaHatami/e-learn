@@ -1,0 +1,12 @@
+@import '../../assets/variables';
+.services{
+    margin: 50px 0;
+    @include centerdItems(column);
+    &__heading{
+        color: $primary-color;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 25px;
+    }
+}
