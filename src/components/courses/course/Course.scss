@@ -1,0 +1,64 @@
+@import '../../../assets/variables';
+.course{
+    box-shadow: 0px 100px 200px rgba(1,23,54,0.1);
+    width: 318px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    &__details{
+        padding: 20px 10px;
+        text-align: left;
+        hr{
+            height: 3px;
+            width: 100%;
+            background-color: #E0E3E3;
+            border-radius: 4px;
+            margin:10px auto;
+            border: none;
+        }
+    }
+    &__name{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: .5px;
+    }
+    &__description{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: .25px;
+        color: $courses-text-color;
+        margin-top: 5px;
+    }
+    &__info{
+        justify-content: space-between;
+        padding: 0 10px 20px 10px;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: .5px;
+        hr{
+            height: 30px;
+            width: 2px;
+            background-color:#E0E3E3;
+            border: none;
+            border-radius: 4px;
+            margin-left: -10px;
+        }
+    }
+    &__info,
+    &__length,
+    &__date,
+    &__flag{
+        display: flex;
+        align-items: center;
+    }
+    &__length{
+        span{
+            margin-left: 8px;
+        }
+    }
+    &__date{
+        margin-left: -10px;
+    }
+}

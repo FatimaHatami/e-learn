@@ -1,10 +1,21 @@
 @font-face {
     font-family: roboto;
-    src: url(fonts/Roboto-Regular.ttf),
-    url(fonts/Roboto-Thin.ttf),
-    url(fonts/Roboto-Light.ttf),
-    url(fonts/Roboto-Medium.ttf),
-    url(fonts/Roboto-Bold.ttf),
-    url(fonts/Roboto-Black.ttf),
+    src: url(fonts/roboto/Roboto-Regular.ttf),
+    url(fonts/roboto/Roboto-Thin.ttf),
+    url(fonts/roboto/Roboto-Light.ttf),
+    url(fonts/roboto/Roboto-Medium.ttf),
+    url(fonts/roboto/Roboto-Bold.ttf),
+    url(fonts/roboto/Roboto-Black.ttf),
+    ;
+}
+@font-face {
+    font-family: manrope;
+    src: url(fonts/monrope/static/Manrope-Regular.ttf),
+    url(fonts/monrope/static/Manrope-ExtraBold.ttf),
+    url(fonts/monrope/static/Manrope-Light.ttf),
+    url(fonts/monrope/static/Manrope-Medium.ttf),
+    url(fonts/monrope/static/Manrope-Bold.ttf),
+    url(fonts/monrope/static/Manrope-SemiBold.ttf),
+    url(fonts/monrope/static/Manrope-ExtraLight.ttf)
     ;
 }

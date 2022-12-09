@@ -1,10 +1,10 @@
 import React from "react";
 
 import './Button.scss';
-const Button=()=>{
+const Button=(props)=>{
     return(
         <a href="/" className="primary-button">
-            <span>Get Started</span>
+            <span>{props.value}</span>
         </a>
     )
 }

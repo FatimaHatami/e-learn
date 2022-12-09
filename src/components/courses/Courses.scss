@@ -1,0 +1,22 @@
+@import '../../assets/variables';
+.courses{
+    @include centerdItems(column);
+    margin-top: 20%;
+    margin-bottom: 30%;
+    h2{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: .5px;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 30px;
+        letter-spacing: .5px;
+        margin: 8px 0 20px 0;
+    }
+    &__button{
+        width: 300px !important;
+    }
+}

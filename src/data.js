@@ -1,4 +1,4 @@
-const data=
+const languages=
 [
      { 
         "language": "English",
@@ -8,5 +8,5 @@ const data=
             {"chapter2":["lesson1","lesson2","lesson3"]},
             {"chapter3":["lesson1","lesson2","lesson3"]}
           ]
-      } 
+      }
 ]

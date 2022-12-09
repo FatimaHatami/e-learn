@@ -4,15 +4,23 @@ $primary-color-light:#25a4ad10;
 
 $secondary-text-color:#8391A1;
 
+$notification-bg-color:#DAE8FE;
 // text color
 $primary-text-color:#000000;
+$primary-text-color-1:#1A1A1A;
+$primary-text-color-2:#4A4A4A;
 $text-color-light:#8391A1;
+$courses-text-color:#3F4849;
 
 
 // Mixins
 @mixin border-radius-4 {
     border-radius: 4px;
 }
+@mixin border-radius-10 {
+    border-radius: 10px;
+}
+
 @mixin centerdItems($direction){
     display: flex;
     flex-direction: $direction;

@@ -9,6 +9,7 @@ import paymentIcon from "../../assets/img/monetization_on.svg";
 
 import './Services.scss'
 
+
 const Services=()=>{
 
     const servicesData=[
@@ -35,7 +36,7 @@ const Services=()=>{
 
     return(
         <div className="services">
-            <h2 className="services__heading">Services</h2>
+            <h2 className="section-heading">Services</h2>
             {servicesData.map(service =>(
                 <Service
                 name={service.serviceName}
